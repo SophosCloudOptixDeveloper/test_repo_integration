@@ -124,7 +124,7 @@
         "MahCloudTrail" : {
             "Type" : "AWS::CloudTrail::Trail",
             "Properties" : {
-                "EnableLogFileValidation" : false,
+                "EnableLogFileValidation" : true,
                 "SnsTopicName" : {"Fn::GetAtt":["Topic","TopicName"]},
                 "IsMultiRegionTrail" : false,
                 "KMSKeyId" : "kms_key_test_id",
