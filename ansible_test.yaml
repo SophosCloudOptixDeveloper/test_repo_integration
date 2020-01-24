@@ -24,3 +24,4 @@ tasks:
       bucket: mybucket
       mode: create
       permission: public-read
+      encrypt: true

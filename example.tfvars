@@ -1,7 +1,7 @@
 foo = "bar"
 somelist = [
   "one",
-  "two",
+  "hello",
 ]
 somemap = {
   foo = "bar"
